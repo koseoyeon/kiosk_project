@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.kiosk.model.domain.Admin" alias="Admin"/>
+		<typeAlias type="com.kiosk.model.domain.Auth" alias="Auth"/>
+		<typeAlias type="com.kiosk.model.domain.Category" alias="Category"/>
+		<typeAlias type="com.kiosk.model.domain.Menu" alias="Menu"/>
+		<typeAlias type="com.kiosk.model.domain.OrderDetail" alias="OrderDetail"/>
+		<typeAlias type="com.kiosk.model.domain.OrderSummary" alias="OrderSummary"/>
+		<typeAlias type="com.kiosk.model.domain.PayType" alias="PayType"/>
+		<typeAlias type="com.kiosk.model.domain.Stock" alias="Stock"/>
+		<typeAlias type="com.kiosk.model.domain.Device" alias="Device"/>
+		<typeAlias type="com.kiosk.model.domain.State" alias="State"/>
+		<typeAlias type="com.kiosk.model.domain.Exist" alias="Exist"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="com/kiosk/mybatis/mapper/AdminMapper.xml" />
+		<mapper resource="com/kiosk/mybatis/mapper/AuthMapper.xml" />
+		<mapper resource="com/kiosk/mybatis/mapper/CategoryMapper.xml" />
+		<mapper resource="com/kiosk/mybatis/mapper/MenuMapper.xml" />
+		<mapper resource="com/kiosk/mybatis/mapper/OrderSummaryMapper.xml "/>
+		<mapper resource="com/kiosk/mybatis/mapper/OrderDetailMapper.xml "/>
+		<mapper resource="com/kiosk/mybatis/mapper/PayTypeMapper.xml "/>
+		<mapper resource="com/kiosk/mybatis/mapper/StockMapper.xml "/>
+		<mapper resource="com/kiosk/mybatis/mapper/DeviceMapper.xml "/>
+		<mapper resource="com/kiosk/mybatis/mapper/StateMapper.xml "/>
+		<mapper resource="com/kiosk/mybatis/mapper/ExistMapper.xml "/>
+	</mappers>
+</configuration>

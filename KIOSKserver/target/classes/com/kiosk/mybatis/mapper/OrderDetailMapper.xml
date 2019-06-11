@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="OrderDetail">
+	<resultMap type="OrderDetail" id="orderDetailMap">
+		<id property="order_detail_id" column="order_detail_id"/>
+		<result property="ea" column="ea"/>
+		<association property="orderSummary" column="order_summary_id" javaType="OrderSummary" select="OrderSummary.select"></association>
+		<association property="menu" column="menu_id" javaType="Menu" select="Menu.select0"></association>
+	</resultMap>
+	<sql id="sql_orderDetail">
+		select order_detail_id,order_summary_id,menu_id,ea from order_detail
+	</sql>
+	<select id="select" parameterType="int" resultMap="orderDetailMap">
+		<include refid="sql_orderDetail"/>
+		where order_detail_id=#{order_detail_id}
+	</select>
+	<select id="selectAllByOrderSummary" resultMap="orderDetailMap" parameterType="int">
+			<include refid="sql_orderDetail"/>
+			where order_summary_id =#{order_summary_id}
+	</select>
+	<insert id="insert" parameterType="OrderDetail">
+		insert into order_detail(order_detail_id, order_summary_id, menu_id, ea)
+		values(seq_order_detail.nextval,
+		#{orderSummary.order_summary_id},
+		#{menu.menu_id},
+		#{ea})
+	</insert>
+</mapper>

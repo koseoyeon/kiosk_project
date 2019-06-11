@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Stock">
+	<resultMap type="Stock" id="stockMap">
+		<id property="stock_id" column="stock_id"/>
+		<association property="menu" column="menu_id" javaType="Menu" select="Menu.select"/>
+		<association property="admin" column="admin_id" javaType="Admin" select="Admin.select"/>
+		<association property="state" column="state_id" javaType="State" select="State.select"/>
+	</resultMap>
+	
+	<sql id="sql_stock">
+		select stock_id,menu_id,admin_id,state_id from stock
+	</sql>
+	
+	<select id="select" parameterType="int" resultMap="stockMap">
+		<include refid="sql_stock"/>	
+		where stock_id=#{stock_id}
+	</select>
+	
+	<select id="selectAllByAdmin" parameterType="int" resultMap="stockMap">
+		<include refid="sql_stock"/>
+		where admin_id = #{admin_id}	
+		order by stock_id asc
+	</select>
+	
+	<update id="update" parameterType="Stock">
+		update stock set state_id = #{state.state_id}
+		where menu_id = #{menu.menu_id}
+		and admin_id = #{admin.admin_id}
+	</update>
+	
+	<insert id="insert" parameterType="Stock">
+		insert into stock(stock_id,menu_id,admin_id)
+		values(seq_stock.nextval,#{menu.menu_id},#{admin.admin_id})
+	</insert>
+	
+	<delete id="deleteByAdmin" parameterType="int">
+		delete from stock where admin_id=#{admin_id}
+	</delete>
+	
+	<delete id="deleteByMenu" parameterType="int">
+		delete from stock where menu_id = #{menu_id}
+	</delete>
+</mapper>

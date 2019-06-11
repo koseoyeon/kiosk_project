@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="OrderSummary">
+	<resultMap type="OrderSummary" id="orderSummaryMap">
+		<id property="order_summary_id" column="order_summary_id"/>
+		<result property="order_date" column="order_date"/>
+		<result property="order_num" column="order_num"/>
+		<result property="order_price" column="order_price"/>
+		<association property="payType" column="pay_type_id" javaType="PayType" select="PayType.select"/>
+		<association property="device" column="device_id" javaType="Device" select="Device.select"/>	
+	</resultMap>
+	<sql id="sql_orderSummary" >
+		select order_summary_id,order_date,pay_type_id,device_id, order_num, order_price 
+		from order_summary
+	</sql>
+	<select id="select" parameterType="int" resultMap="orderSummaryMap">
+		<include refid="sql_orderSummary"/>
+		where order_summary_id=#{order_summary_id}
+	</select>
+	
+	<select id="selectByAdminId"  parameterType="int" resultMap="orderSummaryMap">
+		select os.order_summary_id, os.order_date, p.pay_type_id, os.order_num, os.order_price, os.device_id
+		from order_summary os, pay_type p, device d, admin a
+		where d.admin_id = #{admin_id}
+		and os.pay_type_id = p.pay_type_id
+		and d.admin_id = a.admin_id
+		and d.device_id = os.device_id
+		order by os.order_date desc
+	</select>
+	
+	<select id="selectByDate" parameterType="int" resultMap="orderSummaryMap">
+		select os.order_summary_id
+		from order_summary os, device d, admin a
+		where to_char(order_date, 'yyyymmdd') = to_char(sysdate, 'yyyymmdd')
+		and os.device_id = d.device_id
+		and d.admin_id = a.admin_id
+		and d.admin_id = #{admin_id} 
+	</select>
+	
+	<select id="selectAll" resultMap="orderSummaryMap">
+		<include refid="sql_orderSummary"/>
+		order by order_date desc
+	</select>
+	
+	<insert id="insert" parameterType="OrderSummary">
+		insert into order_summary(order_summary_id, pay_type_id, device_id, order_num, order_price)
+		values(seq_order_summary.nextval,
+		#{payType.pay_type_id},
+		#{device.device_id},
+		#{order_num},
+		#{order_price})
+		<selectKey order="AFTER" resultType="int" keyProperty="order_summary_id" >
+			select seq_order_summary.currval
+			as order_summary_id from dual
+		</selectKey>
+	</insert>
+	<select id="selectAllByDate" resultMap="orderSummaryMap" parameterType="OrderSummary">
+	<include refid="sql_orderSummary"/>
+	<![CDATA[
+		where order_date >= to_date(#{day_start},'yyyy-mm-dd')
+		and order_date < to_date(#{day_end},'yyyy-mm-dd')+1
+		order by order_date desc
+	 ]]>
+	</select>
+</mapper>

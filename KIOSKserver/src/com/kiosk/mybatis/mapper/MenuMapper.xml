@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Menu">
+	<resultMap type="Menu" id="menuMap">
+		<id property="menu_id" column="menu_id"/>
+		<result property="menu_name" column="menu_name"/>
+		<result property="price" column="price"/>
+		<result property="file_name" column="file_name"/>
+		<association column="exist_id" property="exist"	select="Exist.select" javaType="Exist" />
+		<association property="category" column="category_id" javaType="Category" select="Category.select"/>
+	</resultMap>
+	
+	<sql id="sql_menu">
+		select menu_id,menu_name,price,file_name,category_id, exist_id from menu
+	</sql>
+	
+	<select id="select" parameterType="int" resultMap="menuMap">
+		<include refid="sql_menu"/>
+		where menu_id = #{menu_id}
+		and exist_id = 1 
+	</select>
+	
+	<select id="select0" parameterType="int" resultMap="menuMap">
+		<include refid="sql_menu"/>
+		where menu_id = #{menu_id}
+	</select>
+	
+	<select id="selectAll" resultMap="menuMap">
+		<include refid="sql_menu"/>
+		where exist_id = 1
+		order by menu_id asc 
+	</select>
+	
+	<insert id="insert" parameterType="Menu">
+		insert into menu(menu_id,category_id,menu_name,price,file_name)
+		values(seq_menu.nextval,#{category.category_id},#{menu_name},#{price},#{file_name})
+		<selectKey order="AFTER" keyProperty="menu_id" resultType="int">
+			select seq_menu.currval 
+			as menu_id from dual
+		</selectKey>
+	</insert>
+	
+	<select id="selectAllByCategory" parameterType="int" resultMap="menuMap">
+		<include refid="sql_menu"/>
+		where category_id = #{category.category_id}
+		and exist_id = 1
+	</select>
+	
+	<update id="updateByExist" parameterType="int">
+		update menu set exist_id = 0
+		where menu_id = #{menu_id}
+	</update>
+	
+</mapper>

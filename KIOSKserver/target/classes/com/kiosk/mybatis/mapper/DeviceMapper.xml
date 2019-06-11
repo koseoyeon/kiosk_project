@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Device">
+	<resultMap type="Device" id="deviceMap">
+		<id column="device_id" property="device_id"/>
+		<result column="device_name" property="device_name"/>
+		<association property="admin" column="admin_id" javaType="Admin" select="Admin.select0"/>
+		<association property="exist" column="exist_id" javaType="Exist" select="Exist.select"/>
+	</resultMap>
+	
+	<sql id="sql_device">
+		select device_id, device_name, admin_id
+		from device
+	</sql>
+	
+	<select id="selectByName" resultMap="deviceMap" parameterType="Device">
+		<include refid="sql_device"/>
+		where device_name = #{device_name}
+		and exist_id = 1
+	</select>
+	
+	<select id="selectByNameAndAdmin" resultMap="deviceMap" parameterType="Device">
+		<include refid="sql_device"/>
+		where device_name = #{device_name}
+		and admin_id = #{admin.admin_id}
+		and exist_id = 1
+	</select>	
+	
+	<select id="selectByAdminId" resultMap="deviceMap" parameterType="int">
+		<include refid="sql_device"/>
+		where admin_id = #{admin.admin_id}
+		and exist_id = 1
+	</select>
+	
+	<select id="select" parameterType="int" resultMap="deviceMap">
+		<include refid="sql_device"/>
+		where device_id=#{device_id}
+		and exist_id = 1
+	</select>
+	
+	<insert id="insert" parameterType="Device">
+		insert into device(device_id,device_name,admin_id) values(seq_device.nextval,#{device_name},#{admin.admin_id})
+	</insert>
+	
+	<select id="selectAll" resultMap="deviceMap">
+		select d.device_id, d.device_name, d.admin_id
+		from device d, admin a
+		where d.admin_id = a.admin_id
+		and d.exist_id = 1
+		order by a.name asc, d.device_name asc
+		
+	</select>
+	
+<!-- 	<select id="selectAll" resultMap="deviceMap">
+		select d.device_id,d.device_name,d.admin_id,a.auth_id
+		from device d,admin a,exist e,auth
+		where d.admin_id= a.admin_id
+		and d.exist_id = 1
+		order by device_id asc
+	</select> -->
+	
+	<update id="update" parameterType="Device">
+		update device set device_name = #{device_name},admin_id=#{admin.admin_id}
+		where device_id = #{device_id}
+	</update>
+	
+<!-- 	<delete id="delete" parameterType="int">
+		delete from device where device_id =#{device_id}
+	</delete> -->
+	
+	<update id="delete" parameterType="int">
+		update device set exist_id = 0 where device_id = #{device_id}
+	</update>
+	
+<!-- 		<update id="deleteByAdmin" parameterType="int">
+		update device set exist_id = 0,admin.auth_id=1 where admin_id = #{admin_id}
+	</update> -->
+</mapper>

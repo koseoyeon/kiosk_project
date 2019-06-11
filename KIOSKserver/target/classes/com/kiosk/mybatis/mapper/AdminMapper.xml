@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Admin">
+	<resultMap type="Admin" id="adminMap">
+		<id column="admin_id" property="admin_id"/>
+		<result column="id" property="id"/>
+		<result column="pw" property="pw"/>
+		<result column="name" property="name"/>
+		<association property="auth" column="auth_id" javaType="Auth" select="Auth.select"/>
+		<association property="exist" column="exist_id" javaType="Exist" select="Exist.select"/>
+	</resultMap>
+	
+	<sql id="sql_admin">
+		select admin_id,id,pw,name,auth_id, exist_id from admin
+	</sql>
+	
+	<select id="select" parameterType="int" resultMap="adminMap">
+		<include refid="sql_admin"/>
+		where admin_id=#{admin_id}
+		and exist_id = 1
+	</select>
+		<select id="select0" parameterType="int" resultMap="adminMap">
+		<include refid="sql_admin"/>
+		where admin_id=#{admin_id}
+	</select>
+	
+	<insert id="insert" parameterType="Admin">
+		insert into admin(admin_id, id, pw, name)
+		values(seq_admin.nextval, #{id}, #{pw}, #{name})
+		<selectKey keyProperty="admin_id" resultType="int" order="AFTER">
+			select seq_admin.currval as admin_id from dual
+		</selectKey>
+	</insert>
+	
+	<select id="login" parameterType="Admin" resultMap="adminMap">
+		<include refid="sql_admin"/>
+		where id=#{id} and pw=#{pw}
+		and exist_id = 1
+	</select>
+	
+	<select id="selectAll" resultMap="adminMap">
+		<include refid="sql_admin"/>
+		where auth_id = 2
+		and exist_id = 1
+		order by admin_id asc
+	</select>
+	
+	<select id="checkId" parameterType="admin" resultMap="adminMap">
+		<include refid="sql_admin"/>
+		where id = #{id}
+		and exist_id = 1
+	</select>
+	<select id="checkName" parameterType="admin" resultMap="adminMap">
+		<include refid="sql_admin"/>
+		where name = #{name} 
+		and exist_id = 1
+	</select>
+	<!-- <delete id="delete" parameterType="int">
+		delete from admin
+		where admin_id = #{admin_id}
+	</delete> -->
+	<update id="update" parameterType="Admin">
+		update admin set id =#{id},pw=#{pw}, name = #{name} where admin_id=#{admin_id}
+	</update>
+	<update id="delete" parameterType="int">
+		update admin set exist_id = 0,auth_id =1,name='본사'  where admin_id = #{admin_id}
+	</update>
+</mapper>

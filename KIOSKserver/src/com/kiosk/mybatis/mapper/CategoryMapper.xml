@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Category">
+	<resultMap id="categoryMap" type="Category">
+		<id column="category_id" property="category_id" />
+		<result column="category_name" property="category_name" />
+		<association column="exist_id" property="exist"	select="Exist.select" javaType="Exist" />
+
+	</resultMap>
+	<sql id="sql_category">
+		select category_id,category_name, exist_id from
+		category
+	</sql>
+	<select id="select" parameterType="int" resultType="Category">
+		<include refid="sql_category" />
+		where category_id =#{category_id}
+		and exist_id = 1
+	</select>
+	<insert id="insert">
+		insert into category(category_id, category_name)
+		values(seq_category.nextval, #{category_name})
+		<selectKey order="AFTER" resultType="int" keyProperty="category_id">
+			select seq_category.currval
+			as category_id from dual
+		</selectKey>
+	</insert>
+	<select id="selectAll" resultType="Category">
+		<include refid="sql_category" />
+		where exist_id = 1
+		order by category_id asc
+	</select>
+	<update id="deleteByExist" parameterType="int">
+		update category set exist_id = 0
+		where category_id = #{category_id}
+	</update>
+</mapper>

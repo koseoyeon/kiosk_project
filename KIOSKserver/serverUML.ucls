@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="com.kiosk.model.service.DeviceService" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/DeviceService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="222" x="4343" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="com.kiosk.model.domain.Category" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/Category.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="176" x="1570" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.kiosk.model.service.DeviceServiceImpl" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/DeviceServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="222" x="5146" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.kiosk.model.domain.Auth" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/Auth.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="155" x="2407" y="1876"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.kiosk.model.service.StockServiceImpl" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/StockServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="188" x="2343" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.kiosk.model.service.MenuService" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/MenuService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="133" x="2769" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="com.kiosk.model.repository.MybatisCategoryDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/MybatisCategoryDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="223" x="-156" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.kiosk.model.domain.PayType" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/PayType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="159" x="107" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.kiosk.ServerMain" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/ServerMain.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="237" y="42"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.kiosk.model.repository.MybatisAdminDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/MybatisAdminDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="223" x="761" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.kiosk.model.domain.Admin" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/Admin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="131" x="2407" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.kiosk.commons.FileManager" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/commons/FileManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="169" x="784" y="42"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.kiosk.model.service.OrderDetailServiceImpl" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/OrderDetailServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="258" x="3095" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="com.kiosk.model.repository.CategoryDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/CategoryDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="151" x="434" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="com.kiosk.commons.ImageUpload" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/commons/ImageUpload.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="183" x="2972" y="42"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.kiosk.model.repository.MybatisOrderSummaryDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/MybatisOrderSummaryDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="315" x="5408" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.kiosk.model.domain.OrderDetail" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/OrderDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="218" x="1388" y="42"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="18" language="java" name="com.kiosk.model.repository.MenuDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/MenuDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="201" x="1024" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="19" language="java" name="com.kiosk.model.repository.OrderDetailDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/OrderDetailDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="258" x="2942" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="com.kiosk.controller.ServerKitchenController" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/controller/ServerKitchenController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="266" x="4485" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.kiosk.model.repository.MybatisMenuDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/MybatisMenuDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="223" x="306" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" language="java" name="com.kiosk.model.service.OrderSummaryService" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/OrderSummaryService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="315" x="3988" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="23" language="java" name="com.kiosk.model.repository.DeviceDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/DeviceDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="222" x="5146" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="24" language="java" name="com.kiosk.model.service.MenuServiceImpl" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/MenuServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="133" x="1215" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="25" language="java" name="com.kiosk.model.service.AdminService" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/AdminService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="182" x="3766" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="26" language="java" name="com.kiosk.model.repository.MybatisOrderDetailDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/MybatisOrderDetailDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="258" x="2797" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.kiosk.model.domain.Exist" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/Exist.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="153" x="2016" y="1876"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" name="com.kiosk.model.service.CategoryService" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/CategoryService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="151" x="2578" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="29" language="java" name="com.kiosk.model.service.CategoryServiceImpl" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/CategoryServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="151" x="1024" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.kiosk.controller.ServerAdminController" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/controller/ServerAdminController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="333" x="3766" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.kiosk.controller.ServerUserController" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/controller/ServerUserController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="306" x="4139" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="32" language="java" name="com.kiosk.model.repository.OrderSummaryDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/OrderSummaryDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="315" x="4791" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="33" language="java" name="com.kiosk.model.domain.Menu" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="160" x="1388" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.kiosk.model.service.AdminServiceImpl" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/AdminServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="182" x="1858" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.kiosk.controller.ServerHeadController" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/controller/ServerHeadController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="333" x="3393" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.kiosk.model.domain.Stock" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/Stock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="149" x="1867" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="37" language="java" name="com.kiosk.model.repository.AdminDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/AdminDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="182" x="1265" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="38" language="java" name="com.kiosk.model.repository.MybatisDeviceDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/MybatisDeviceDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="223" x="5763" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.kiosk.KioskServer" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/KioskServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="230" x="1588" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.kiosk.ServerThread" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/ServerThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="226" x="3393" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.kiosk.model.domain.OrderSummary" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/OrderSummary.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="175" x="1192" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.kiosk.model.domain.State" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/State.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="152" x="569" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.kiosk.commons.CurrentDay" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/commons/CurrentDay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="138" x="4521" y="42"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="44" language="java" name="com.kiosk.model.repository.StockDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/StockDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="188" x="1858" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="45" language="java" name="com.kiosk.model.service.OrderSummaryServiceImpl" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/OrderSummaryServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="315" x="4791" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="46" language="java" name="com.kiosk.model.service.OrderDetailService" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/OrderDetailService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="258" x="3468" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="47" language="java" name="com.kiosk.model.domain.Device" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/domain/Device.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="165" x="2571" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="48" language="java" name="com.kiosk.model.service.StockService" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/service/StockService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="188" x="3240" y="1449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="49" language="java" name="com.kiosk.model.repository.MybatisStockDAO" project="KIOSKserver" 
+    file="/KIOSKserver/src/com/kiosk/model/repository/MybatisStockDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="223" x="2080" y="914"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="50">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="51" name="kioskServer"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="54" name="serverKitchenController"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="57" name="deviceService"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="60" name="orderSummaryDAO"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="62">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="63">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="64" name="menuDAO"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="67" name="admin"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="70" name="stockService"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="73" name="adminDAO"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="76" name="serverAdminController"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="78">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="79">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="80" name="adminService"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="83" name="adminService"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="86" name="list"/>      
+      <multiplicity id="87" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="89" name="serverUserController"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="92" name="state"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="95" name="stockDAO"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="97">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="98" name="adminService"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="100">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="101" name="orderSummaryService"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="103">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="104" name="deviceService"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="106">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="107" name="menuDAO"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="109">    
+    <bendpoint x="1776" y="1449"/>    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="110" name="exist"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="112">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <association id="113">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="114" name="categoryService"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="116">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="46"/>  
+  </realization>  
+  <realization id="117">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <association id="118">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="119" name="serverHeadController"/>      
+      <multiplicity id="120" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="121">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="122" name="deviceDAO"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="124">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="125" name="deviceService"/>      
+      <multiplicity id="126" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="127">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="128" name="categoryDAO"/>      
+      <multiplicity id="129" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="130">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="131" name="orderDetailService"/>      
+      <multiplicity id="132" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="46" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="133">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="134" name="stockDAO"/>      
+      <multiplicity id="135" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="136">    
+    <bendpoint x="2766" y="914"/>    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="137" name="admin"/>      
+      <multiplicity id="138" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="139">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="140" name="deviceService"/>      
+      <multiplicity id="141" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="142">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="143" name="orderDetailDAO"/>      
+      <multiplicity id="144" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="145">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="146" name="orderSummaryService"/>      
+      <multiplicity id="147" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="148">    
+    <bendpoint x="2302" y="1449"/>    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="149" name="exist"/>      
+      <multiplicity id="150" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="151">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="152">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="153" name="exist"/>      
+      <multiplicity id="154" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="155">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="156" name="orderDetailService"/>      
+      <multiplicity id="157" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="46" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="158">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="159" name="stockDAO"/>      
+      <multiplicity id="160" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="161">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="162" name="adminDAO"/>      
+      <multiplicity id="163" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="164">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="165" name="category"/>      
+      <multiplicity id="166" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="167">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="168" name="exist"/>      
+      <multiplicity id="169" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="170">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="171" name="orderSummaryService"/>      
+      <multiplicity id="172" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="173">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="174" name="menuDAO"/>      
+      <multiplicity id="175" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="176">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="177">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="178" name="orderSummary"/>      
+      <multiplicity id="179" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="180">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="181" name="payType"/>      
+      <multiplicity id="182" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="183">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="184" name="device"/>      
+      <multiplicity id="185" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="186">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <association id="187">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="188" name="auth"/>      
+      <multiplicity id="189" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="190">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="191" name="menu"/>      
+      <multiplicity id="192" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="193">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="44"/>  
+  </realization>  
+  <association id="194">    
+    <bendpoint x="1397" y="379"/>    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="195" name="menu"/>      
+      <multiplicity id="196" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="197">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="198">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="199" name="menuService"/>      
+      <multiplicity id="200" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="201">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="37"/>  
+  </realization>  
+  <association id="202">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="203" name="deviceDAO"/>      
+      <multiplicity id="204" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="205">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="206" name="adminDAO"/>      
+      <multiplicity id="207" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="208">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="25"/>  
+  </realization>  
+  <association id="209">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="210" name="device"/>      
+      <multiplicity id="211" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="212">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="213">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <association id="214">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="215" name="orderDetailService"/>      
+      <multiplicity id="216" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="46" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="217">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="218" name="adminService"/>      
+      <multiplicity id="219" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="220">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="221" name="stockDAO"/>      
+      <multiplicity id="222" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
