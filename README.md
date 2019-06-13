@@ -1,4 +1,4 @@
-# KIOSK
+# KIOSK(무인 주문 시스템)
 
 <h4>
 <ul>
@@ -9,12 +9,13 @@
 </ul>
 <hr> 
 </h4>
-<h3>프로그램 핵심 기</h3>
+<h3>프로그램 핵심 기술</h3>
 <ul>
 <li>소켓과 Thread를 사용한 네트워킹</li>
-<li>객체 직렬화 기술을 활용하여 서로 다른 프로젝트간에 파일, 이미지, 객체 등을 전달</li>
-<li>매출을 구성하는 각 테이블에 존재여부 컬럼을 부여하여 해당 테이블의 update, delete 요청 후에도 이전 매출의 데이터 유지</li>
-<li>각 클라이언트측 로그인 정보를 활용하여 결제 시 유니캐스팅과 멀티캐스팅을 각각 상황에 맞게 구현</li> 
+<li>객체 직렬화 기술을 사용하여 서로 다른 프로젝트간에 이미지, 객체 등을 전달</li>
+<li>테이블에 존재여부 컬럼을 부여하여 클라이언트의 데이터 변경 요청 후에도 변경 이전의 데이터 일관성 유지</li>
+<li>서버에서 각 클라이언트측의 정보를 구분하여 유니캐스팅과 멀티캐스팅을 구현</li> 
+<li>JAVA SE에 스프링 기술을 접목하여 CRUD 수행시 트랜잭션 처리</li>
 </ul>
 <hr>
 <img width="100%" src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTcg/MDAxNTYwMzk0MzcyNDQ0.T1-a-OvrcsLkjA0hJxOzuH4E3Cgc601BmjoYfX4J4IQg.qTdscO5p7uD1vfwDx1wetLTFj_dOFtgUlHZZkUzwfzkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG?type=w580" />
