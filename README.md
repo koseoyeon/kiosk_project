@@ -17,12 +17,13 @@
 <li>각 클라이언트측 로그인 정보를 활용하여 결제 시 유니캐스팅과 멀티캐스팅을 각각 상황에 맞게 구현</li> 
 </ul>
 <hr>
+<br>
 <table border="1px;" style="width:100%;">
       <tr>
-            <td>project </td>
+            <td>project 소개<hr></td>
       </tr>
       <tr>
-         <td><img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTcg/MDAxNTYwMzk0MzcyNDQ0.T1-a-OvrcsLkjA0hJxOzuH4E3Cgc601BmjoYfX4J4IQg.qTdscO5p7uD1vfwDx1wetLTFj_dOFtgUlHZZkUzwfzkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG?type=w580" /></td>
+         <td><img src="https:/postfiles.pstatic.net/MjAxOTA2MTNfMTcg/MDAxNTYwMzk0MzcyNDQ0.T1-a-OvrcsLkjA0hJxOzuH4E3Cgc601BmjoYfX4J4IQg.qTdscO5p7uD1vfwDx1wetLTFj_dOFtgUlHZZkUzwfzkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG?type=w580" /></td>
       </tr>
       <tr>
          <td><img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjI5/MDAxNTYwMzk0MzcyNDUw.QbgfTcw5ww2cJ65eRAV82dCndZq7yHb-bc69ERhu-Cog.-YbYCJyB5uzevYJctNdO5Zcnd2A5Bb6xKpIx_8ttqDwg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG?type=w580" /></td>
