@@ -1,12 +1,12 @@
 # KIOSK
 
 <h4>
-      <ul>
+<ul>
 <li>개발 기간 : 2019년 05월 20일 ~ 2019년 06월 10일(총 21일간)</li>
 <li>개발 인원 : 2명</li>
 <li>개발 환경 : STS4, javaSE, OracleXE, mybatis, Spring</li>
 <li>개발 주제 : 프렌차이즈 운영이 가능한 무인 주문 시스템인 'kiosk(키오스크)' 프로그램 제작</li>
-      </ul>
+</ul>
 <hr> 
 </h4>
 <h3>프로그램 핵심 기</h3>
@@ -18,77 +18,78 @@
 </ul>
 <hr>
 <br>
-<table border="1px;">
+<table border="1px;" >
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTcg/MDAxNTYwMzk0MzcyNDQ0.T1-a-OvrcsLkjA0hJxOzuH4E3Cgc601BmjoYfX4J4IQg.qTdscO5p7uD1vfwDx1wetLTFj_dOFtgUlHZZkUzwfzkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG?type=w580" />
+<td ><img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMzcg/MDAxNTYwMzk0MzM3MDM4.cWPvcebecPjFad54UNZvvwqwQQwphwWJLT3YB88pGPYg.HXTqvGEXRWGq0pz8ZriglaVG7twBsow4Gbq46oSr8yYg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjI5/MDAxNTYwMzk0MzcyNDUw.QbgfTcw5ww2cJ65eRAV82dCndZq7yHb-bc69ERhu-Cog.-YbYCJyB5uzevYJctNdO5Zcnd2A5Bb6xKpIx_8ttqDwg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTU1/MDAxNTYwMzk0MzM3MDU0.WVkUuuLwg2npFDi8gMwGVdi-WP32lB1psDeRBiPxmXgg.9HvVQtI8hcJBziQfkkY-Efy95voIyk2zwxLe_9cXM2Ag.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTAy/MDAxNTYwMzk0MzcyNDk2.v05yWhc2bTcDmfnYUut9fHVnDLZ6sSZ2VoviKLQ2b_Ug.P59Ds87-Z77zJ3akOlROFRS6WkdhYfVxPp2tptuUeMcg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjkx/MDAxNTYwMzk0MzM3MTAx.DbdvuTcyAL29b8F3zM03q30OlW2tuKpgv16TRDtmwpkg.lJUTHRutMlF951K_VmQkRyjaGIcQd7gcKMkKqH4o_Qcg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMzMg/MDAxNTYwMzk0MzcyNDcw.IjYQ0j5fB0a2uiNJZGn5MYyXcNFAaC535a-8qkgP-T0g.bwnS0axTncgRyOsNyZTZuLlNrbGSjRTPuDvhdXSii7cg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C4.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfOSAg/MDAxNTYwMzk0MzM3MTAx.QeuYD6nb8VrjixujGA4oLKcGSGjSiw8UwlEZa-VCwl8g.2LxWwqN76dsy33eyZWL-kUZbvqaQ2g0Vr2UL32R_OxYg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C4.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfNjAg/MDAxNTYwMzk0MzcyNDg5.RAWXWnDBDhPwdQFH7hh8thgkJq1iEU0tk4yg9ylLsNEg.TPmpWLDv6TFPkhDhLZoyrsrzt9eRKUmDVmLUmBEkUW4g.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C5.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMzkg/MDAxNTYwMzk0MzM3MDYz.M2WJCGQrUW042gqthiMr44Uk2aHuxougljC5R2rCtSog.kf3XXLb76ha_HP5HfLHfBE-XIQ8fgG3VHTvnHtfjRsog.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C5.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjk1/MDAxNTYwMzk0MzcyNDg0.Qw2qlv97UX8k3XIF_UZO2RdRvb0zSa9sTbNSZHS0hvog.CGpPB8T7w-q5xLd-yOfcbaOQidt8KxQgCvF5pCo6So0g.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C6.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjEy/MDAxNTYwMzk0MzM3MDg3.zZdmj65_0jdg2CKdeCd-UIC7ZSwohBDzV21BaFu3_O8g.dFnZszXXz6bBMRfzL6lUjZdk6y3053ZbBVFtQFPLzh0g.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C6.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfOTUg/MDAxNTYwMzk0MzcyNTMz.ckepckAXETMgAWIoH5we3gXgKaudqfqY7MFy6TcpeAAg.xu7MSDfQNoR1S2QJD16OctrFUyApGozP_2vkkFY0olsg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C7.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfNDkg/MDAxNTYwMzk0MzM3MjM2.en_dHu_CTw_GSPsDM2N9X9sgBrecnV8JTJyQUc24Yq4g.EvsOQBpyI8r2HiYkwtco-G05d9HcKt_aDFaliUNNWlog.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C7.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjQ5/MDAxNTYwMzk0MzcyNTc1.VoORa2uZkqH7JUSG_lFeRBo0z1ULtWE5VpF2NQ2uQ7Ag.SNjn4B0KzHlzh6jcd9Dhi-b4QTzDOw6WF48czgTwyKkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C8.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjkg/MDAxNTYwMzk0MzM3Mjgy.Is6XGiAuqBzh6Qk2RhgYekrW6PXslw4C5ethWcOhTxkg.BeF6FaV_KGzllg8FxheuyuHB_YpFdlKeYTmDZavcglcg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C8.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfNjUg/MDAxNTYwMzk0MzczNDEw.TNfKgTaW2KlFWrVhhfOFxRJ9xWUIk9ApKYSTFxnL52Ig.lcTJWgH1BO5RI8E--qTciEdm2mfbMgrZugA1aTQsTIcg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C9.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTY2/MDAxNTYwMzk0MzM3MzE0.h0DguZGnqDFZ64wuEaldINBKATnGcnWYqclI3PJ7Ppsg.281HTQhD7WwMIlDN6lQ5xz8k2bruRt8_H1GgaBVZt6wg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C9.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjY1/MDAxNTYwMzk0MzczMzM5.S1UqWWGkbpaRz70SB95TesWh12jKNPYl_OkoUWuZwWQg.DQVSNZEa0HLhXP3NR7UbV7xflMO0xicGO_07BQAOEqAg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C10.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTAx/MDAxNTYwMzk0MzM3MzM3.Lz8tk1MksXAwBIwBCealzGyj_cuo_JNfdiAzwEr0YGwg.HKeevpGf3zpG_4oxcGLC0A5fGvhidO2WJNo6sY_oHBIg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C10.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfOSAg/MDAxNTYwMzk0MzczMTk0.zNCS_f2AVPqM6yoD0hRvw44DEjFaKMcBBmzw2PsmCc0g.onehR2v8FEXcucOQZ4v8TDTYMqbf71jCQag5capu0mUg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C11.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTcy/MDAxNTYwMzk0MzM3MzU1.eJxy6dDtk6UFdeaMbMb_AJlMd1cyVpWdGsq7Bm8im1gg.teTj-RyzwC_9M880-JCfA5fWOw4KbhlMc8aPIA3f_U4g.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C11.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTkz/MDAxNTYwMzk0MzczMzM2.D_bkvNtPbxkIgYTMWkipGVKWa4iptYwNfxIBJvg-kdMg.9wL7iphoz2ZHIhctS1Vp8FO_uYeFurCgDysIyMJ0Rzog.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C12.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTY5/MDAxNTYwMzk0MzM3Mzg4.A-Ky8VFVzkTmXWh04qrhFDZO5UAbbL48B3a1d_dKdUAg.DutpjypZk-Zyply-rvpHpTHJb6hIaDPngzFog58oO5sg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C12.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjYw/MDAxNTYwMzk0MzczMjAz.AvA_G12-fqbEHwdt11mHzAN6FsFafrvhnjBtgSHPZvwg.H9z3C9APAOnvdJK5LichLvvSwRJqG4OPFfjaOyP8Mcgg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C13.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTgw/MDAxNTYwMzk0MzM3NDQ5.zyQxs0ROz3-qjxwLJCVBg5XrOdXOXvDPa34a3a3Rb14g.1z9wUYLlCT8604_pegibp11NJWpU3IdTgvgsxD75W8sg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C13.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfNzgg/MDAxNTYwMzk0MzczMzEx.do3r7GfjnG5SH-srrnXyG5bhey5_y55JcqVECUW3NOcg.ihoMVgedr_0SRCJ7LiwUYC-DXagPHP0oUrQqsS6pmGAg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C14.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjYy/MDAxNTYwMzk0MzM3NTAw.r8WA9DeODJYhIDGlwWOS_FHFEJ-AJMYurHEY7f16WOkg.lVgmkI7WQnsmb7DJJx-SGGkiDb6XoejLYJpEHTBvSKAg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C14.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfNzkg/MDAxNTYwMzk0MzczNzU5.6KY8BpjWq7IqXIm32xVkepZece5VDc-bA-YOLW0g2-wg.lILGjLIDkzVqx6ownXI8XG12iK0qGkYxYf5HGpAa0kYg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C15.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTgx/MDAxNTYwMzk0MzM3NTMy.1n5k3wgHcL3eFM960YooKqSlRtqtxiXDnwzeCrR5KN8g.YOIeE_-WlnLgrapaKZwmDaOphp_C08TiEx-Az0msW6sg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C15.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTkz/MDAxNTYwMzk0MzczNzgw.LBJd9-a5hmSS0hfIvsxy2S1nubTzwBftZ8aYprDcMmAg.d2_LSY9B_7qvnDBOnfIVoOMA-XE-mGcvBGetaAXDqpog.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C16.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjI4/MDAxNTYwMzk0MzM3NTY3.U_G16mFQu2sha5kqzLqkk8p1sO84lLkYJwPLJyCBp_8g.QO_JVakUQTlSaw56o9BYkz5i-3qXVyQLnR82uLdPWQAg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C16.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjQ3/MDAxNTYwMzk0MzczODE3.ixc2bAd7HfsIJO8sukhUxh06o9pKcM1xX3Se5-53-Z0g.BYgPZGwfguR5s5ypbpZng87hUhvLSynBzx3my9o3g9cg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C17.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfNDYg/MDAxNTYwMzk0MzM3NTk1.BjErxq9JmxXWraD_3UchKbk4G4KdYADmIT25RUZVXIkg.WgKd80d_u16vpf-4SiQ7yAIwcEga2zBddP4-It02QW0g.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C17.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjU4/MDAxNTYwMzk0MzczNzg0.x7gGdc2cLd8qosgosqWHqWe3mrcNwEqMWa3IOaTLajEg.x_kE4l1iKokBhD2rpRF-Is6-po5tDpBX3AiURtX93mIg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C18.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTI3/MDAxNTYwMzk0MzM3NTkz.dHec3it0d8b_DVg6QQH3bs02IjB5XFTfvSd7crdiFqgg.hNgg90boAugr6TMw6jPejGcL06cKGgW6owOm-8oQ7hAg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C18.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjkz/MDAxNTYwMzk0MzczNzg2.UHWBF3SX6xE3ErzPjoq4EEvtvmR-ceYt9GCKHi6o6OUg.XGfD6d4SBuZDG7CTTWJ6iroRdx9j4Ta49a25JhPAQYwg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C19.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTky/MDAxNTYwMzk0MzM3NzIw.51ZRqROr96-04SM41U3jBgvEIsgzu1-AlRDiFuHeTrwg.WSOu-ncQgoliSOXaMhngxL03KxzDnEPmI6E6ODjTI18g.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C19.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMiAg/MDAxNTYwMzk0MzczODc3.39SoUg-dAJ8YYy8WopeLXjobtByCKAgHbk0JdiQcsZgg.U5IBHjKtK4UYrn_lgxLPc97Oznpe5jxuVv4Tx-LH59Mg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C20.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfODAg/MDAxNTYwMzk0MzM3NzQ2.5U7Zm3HwCxTkwLR0AMTkTEIBSXnmg7BphdvClOcPCk4g.prn2IEoHrt9fR83g5_fSiUwEAa_A9xM50DyraUO5FQcg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C20.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjMx/MDAxNTYwMzk0Mzc0MzM0.POCDR4esDnPtbyAQC93y6ewbfa8Y132o9QNgCzxlyUQg.iF-bHHmiZxk-FkU-Da74CnZxFz4hPs9E6KQ0dzwP6VUg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C21.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTI1/MDAxNTYwMzk0MzM3NzU4.CzACyREZWRyQeM0I8IoigfM1p6XLT-ToxVXV42_gV6Yg.CXGRf3095-puVrHGQQn1sKjfZ_-sb_8lBgtNlYE8H8sg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C21.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjUg/MDAxNTYwMzk0Mzc0Mjgy.ReddbPQa9C2aT0cFubnP6TM9EeQ7KQ6aLnmsVxGif1gg.3OP42AEQsMxxTgOn2IQozpqzhpDdtazgKJ_hdY_5TDMg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C22.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjI2/MDAxNTYwMzk0MzM3ODAx.hz5dTJH42hiH8lUJIcjHdyoYomVbA55Sz66L3NkYWF8g.sFFnQmPwhqENt6LZnJMQdaSbAjKqf-86SlxJWexdYM4g.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C22.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMSAg/MDAxNTYwMzk0Mzc0MzAw.Yfq4aBWDaGnE311BVQxTvBgnBQzV2bGMwZNRtmNWP_Yg.J_byYFAyygaHNva0xjAHmoOPQnGrb3HgfTGDN6_qz14g.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C23.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfNTEg/MDAxNTYwMzk0MzM3ODA5.F1oJvxcJfK1X2XuSuoUYns0rUVUVRj9f3mazo21L-Q8g.5AdUs3S3UpXimcdpoW7aB_GtoerOd4YDGQH6cPlub98g.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C23.PNG?type=w773" />
 </tr>
 <tr>
-<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTI4/MDAxNTYwMzk0Mzc0MzI2.zJecft4K_cQZQqTAViRaCj_4t7eqeoziYGWglhjVVnwg.97af8SdDbv7qxgKZnfILeSb3ZML_ohpaJ6d53z2GFOkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C24.PNG?type=w580" />
+<img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTAg/MDAxNTYwMzk0MzM3OTEw.1xonL_5mBOJ-tjsi18yqTUKAo9xQLhZdDj8pH4RplwMg.fXLBBfDv12OCpiJec4GUGQOapz_kA1t9VOyCocAC3qcg.PNG.qwea8501/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C24.PNG?type=w773" />
 </tr>
+
 </table>
