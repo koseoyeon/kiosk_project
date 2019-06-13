@@ -1,19 +1,23 @@
 # KIOSK
 
 <h4>
+      <ul>
 <li>개발 기간 : 2019년 05월 20일 ~ 2019년 06월 10일(총 21일간)</li>
 <li>개발 인원 : 2명</li>
 <li>개발 환경 : STS4, javaSE, OracleXE, mybatis, Spring</li>
 <li>개발 목적 : 프렌차이즈 운영이 가능한 무인 주문 시스템인 'kiosk(키오스크)' 프로그램 제작</li>
+      </ul>
 <hr> 
 </h4>
 <h3>ㅁ 프로그램 소개</h3>
+<ul>
 <li>소켓과 Thread기술을 활용하여 네트워킹</li>
 <li>객체 직렬화 기술을 활용하여 서로 다른 프로젝트간에 파일, 이미지, 객체 등을 전달</li>
 <li>매출을 구성하는 각 테이블에 존재여부 컬럼을 부여하여 해당 테이블의 update, delete 요청 후에도 이전 매출의 데이터 유지</li>
 <li>각 클라이언트측 로그인 정보를 활용하여 결제 시 유니캐스팅과 멀티캐스팅을 각각 상황에 맞게 구현</li> 
+</ul>
 <hr>
-<table border="1px;width=100%;">
+<table border="1px;">
       <tr>
          <td><img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTcg/MDAxNTYwMzk0MzcyNDQ0.T1-a-OvrcsLkjA0hJxOzuH4E3Cgc601BmjoYfX4J4IQg.qTdscO5p7uD1vfwDx1wetLTFj_dOFtgUlHZZkUzwfzkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG?type=w580" /></td>
       </tr>
