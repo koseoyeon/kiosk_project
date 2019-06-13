@@ -18,9 +18,10 @@
 </ul>
 <hr>
 <br>
-<table border="1px;">
+<div>
+   <table border="1px;">
       <tr>
-         <td><img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTcg/MDAxNTYwMzk0MzcyNDQ0.T1-a-OvrcsLkjA0hJxOzuH4E3Cgc601BmjoYfX4J4IQg.qTdscO5p7uD1vfwDx1wetLTFj_dOFtgUlHZZkUzwfzkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG?type=w580" width="100%"/></td>
+         <td><img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTcg/MDAxNTYwMzk0MzcyNDQ0.T1-a-OvrcsLkjA0hJxOzuH4E3Cgc601BmjoYfX4J4IQg.qTdscO5p7uD1vfwDx1wetLTFj_dOFtgUlHZZkUzwfzkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG?type=w580" /></td>
       </tr>
       <tr>
          <td><img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMjI5/MDAxNTYwMzk0MzcyNDUw.QbgfTcw5ww2cJ65eRAV82dCndZq7yHb-bc69ERhu-Cog.-YbYCJyB5uzevYJctNdO5Zcnd2A5Bb6xKpIx_8ttqDwg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG?type=w580" /></td>
@@ -92,3 +93,4 @@
          <td><img src="https://postfiles.pstatic.net/MjAxOTA2MTNfMTI4/MDAxNTYwMzk0Mzc0MzI2.zJecft4K_cQZQqTAViRaCj_4t7eqeoziYGWglhjVVnwg.97af8SdDbv7qxgKZnfILeSb3ZML_ohpaJ6d53z2GFOkg.PNG.dmsl620/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C24.PNG?type=w580" /></td>
       </tr>
    </table>
+</div>
